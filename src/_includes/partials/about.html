@@ -1,0 +1,7 @@
+<div id="about">
+    <h1 class="about__title">Brix Brocante</h1>
+    <div class="about__wrapper">
+        <p class="about__description">{{ about.description | markdownify | safe }}</p>
+        <img class="about__image" src="{{ about.photo }}" />
+    </div>
+</div>

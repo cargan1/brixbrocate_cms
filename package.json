@@ -3,8 +3,9 @@
     "start": "npm-run-all --parallel css eleventy browsersync",
     "eleventy": "eleventy --watch",
     "debug": "set DEBUG=* & eleventy",
-    "css": "postcss src/static/css/tailwind.css --o _site/static/css/style.css --watch",
-    "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production tailwindcss -i src/static/css/tailwind.css -o _site/static/css/style.css",
+    "css": "postcss src/static/css/style.css --o _site/static/css/style.css --watch",
+    "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production postcss src/static/css/style.css -o _site/static/css/style.css && npm run copy:css",
+    "copy:css": "postcss src/static/css/normalize.css -o _site/static/css/normalize.css",
     "browsersync": "browser-sync start --server '_site' --files '_site' --port 8080 --no-notify --no-open"
   },
   "devDependencies": {
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "markdown-it": "^12.3.2",
     "postcss": "^8.4.5"
   }
 }

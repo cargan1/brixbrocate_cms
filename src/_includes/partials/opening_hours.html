@@ -1,0 +1,14 @@
+<div id="opening-hours">
+    <h1 class="opening-hours__header">{{ opening_hours.header }}</h1>
+    {% if opening_hours.special_before %}
+        <p class="opening-hours__special">{{ opening_hours.special | markdownify | safe }}</p>
+    {% endif %}
+    <p class="opening-hours__body">
+    {% for day in opening_hours.times %}
+            <b>{{ day.day }}</b> {{ day.time }} <br />
+    {% endfor %}
+    </p>
+    {% if not opening_hours.special_before %}
+        <p class="opening-hours__special">{{ opening_hours.special }}</p>
+    {% endif %}
+</div>

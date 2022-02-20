@@ -12,57 +12,44 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
-  - label: "Settings"
-    name: "settings"
+  - label: "Info"
+    name: "info"
+    files:
+      - label: "Opening hours"
+        name: "opening_hours"
+        file: "src/_data/opening_hours.yaml"
+        fields:
+          - { label: "Header", name: "header", widget: "string" }
+          - { label: "Special", name: "special", widget: "markdown" }
+          - { label: "Special before?", name: "special_before", widget: "boolean" }
+          - label: "Opening hours"
+            name: times
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "Day(s)", name: "day", widget: string }
+              - { label: "Hours", name: "time", widget: string }
+      - label: "Find us"
+        name: "find_us"
+        file: "src/_data/find_us.yaml"
+        fields:
+          - { label: "Title", name: "header", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image" }
+      - label: "About"
+        name: "about"
+        file: "src/_data/about.yaml"
+        fields:
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Photo", name: "photo", widget: "image" }
+  - label: "Images"
+    name: "images"
     editor:
       preview: false
     files:
-      - label: "Navigation"
-        name: "items"
-        file: "src/_data/navigation.yaml"
+      - label: "Header & logo"
+        name: "header_logo"
+        file: "src/_data/header_logo.yaml"
         fields:
-          - label: Nav Items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-      - label: "Meta Settings"
-        name: "settings"
-        file: "src/_data/settings.yaml"
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
+          - { label: "Header image", name: "header_image", widget: "image" }
+          - { label: "Logo", name: "logo", widget: "image" }
