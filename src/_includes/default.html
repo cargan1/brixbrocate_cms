@@ -12,6 +12,10 @@
     <link rel="stylesheet" type="text/css" href="/static/css/normalize.css"/>
   </head>
   <body>
+    {% include "./partials/navbar.html" %}
+
+    {% include "./partials/header.html" %}
+
     {{ content | safe }}
 
     <script src="/static/js/alpine.js"></script>

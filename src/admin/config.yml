@@ -20,8 +20,8 @@ collections:
         file: "src/_data/opening_hours.yaml"
         fields:
           - { label: "Header", name: "header", widget: "string" }
-          - { label: "Special", name: "special", widget: "markdown" }
-          - { label: "Special before?", name: "special_before", widget: "boolean" }
+          - { label: "Special before", name: "special_before", widget: "markdown", required: false }
+          - { label: "Special after", name: "special_after", widget: "markdown", required: false }
           - label: "Opening hours"
             name: times
             widget: list
@@ -42,6 +42,42 @@ collections:
         fields:
           - { label: "Description", name: "description", widget: "markdown" }
           - { label: "Photo", name: "photo", widget: "image" }
+      - label: "Feed"
+        name: "feed"
+        file: "src/_data/feed.yaml"
+        fields:
+          - { label: "Feed HTML", name: "feed", widget: "markdown" }
+      - label: "Navigation"
+        name: "navigation"
+        file: "src/_data/navigation.yaml"
+        fields:
+          - label: "Links"
+            name: "links"
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+      - label: "Lamp shades"
+        name: "lamp_shades"
+        file: "src/_data/lampshades.yaml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Button text", name: "button", widget: "string" }
+          - { label: "Sizes", name: "sizes", widget: "markdown" }
+          - label: "Images"
+            name: "images"
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+      - label: "Handelsbetingelser"
+        name: "handel"
+        file: "src/_data/handel.yaml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
   - label: "Images"
     name: "images"
     editor:
