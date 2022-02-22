@@ -20,7 +20,6 @@
 
 html {
    scroll-behavior: smooth; 
-   overflow-x: hidden;
 }
 
 body {
@@ -45,6 +44,7 @@ body {
 .row__inner {
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 .navigation {
