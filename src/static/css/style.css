@@ -4,6 +4,16 @@
     z-index: 100 !important;
 }
 
+.full-width {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+}
+
 :root {
     --main-color: #504751;
 }
@@ -13,12 +23,16 @@ html {
 }
 
 body {
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Playfair Display", serif;
     overflow-x: hidden;
 }
 
 .row--background {
     background-color: var(--main-color);
+}
+
+.row--border {
+    border-top: 1px solid var(--main-color);
 }
 
 .width-50 {
@@ -125,6 +139,18 @@ body {
     text-decoration: underline;
 }
 
+.navigation__content__socials {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation__content__socials__entry {
+    text-decoration: none;
+    padding: 0 16px;
+}
+
 #header {
     width: 100%;
     height: 80vh;
@@ -197,10 +223,14 @@ body {
     border-radius: 25px;
 }
 
+#feed {
+    padding: 48px 0;
+}
+
 .feed__title {
     font-size: 2rem;
     text-align: center;
-    padding: 40px 0 24px 0;
+    padding-bottom: 24px;
     margin: 0;
 }
 
@@ -213,6 +243,172 @@ body {
 
 .handel__title {
     text-align: center;
+}
+
+#lampshades {
+    padding: 32px 16px;
+    color: #ffffff;
+    flex: 1;
+    min-width: 0;
+}
+
+.lampshades__wrapper {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 16px;
+}
+
+.lampshades__title {
+    font-size: 3rem;
+    position: relative;
+}
+
+.lampshades__description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.lampshades__button {
+    max-width: 300px;
+    background-color: #ffffff;
+    border: none;
+    padding: 16px 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.lampshades__button:hover {
+    background-color: #efefef;
+}
+
+.lampshades__img-container {
+    height: 400px;
+    width: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0 16px;
+}
+
+.lampshades__img {
+    height: 400px;
+    width: auto;
+    padding-right: 8px;
+}
+
+.lampshades__sizes__container {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 300;
+}
+
+.lampshades__sizes__container.isOpen {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.lampshades__sizes {
+    background-color: #ffffff;
+    width: 70%;
+    max-height: 70%;
+    padding: 40px 16px 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 310;
+    color: black;
+}
+
+.lampshades__sizes svg {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.lampshades__sizes__backdrop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 309;
+}
+
+#contact {
+    padding: 32px 16px;
+}
+
+.contact__title {
+    font-size: 3rem;
+}
+
+.contact__description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.contact__phone,
+.contact__email {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.contact__phone svg,
+.contact__email svg {
+    padding-right: 8px;
+}
+
+.contact__phone:hover,
+.contact__email:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__socials {
+    display: flex;
+    flex-flow: column;
+}
+
+.footer__socials__entry {
+    padding-bottom: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.footer__socials__entry svg {
+    padding-right: 8px;
+}
+
+.footer__socials__entry:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -253,6 +449,50 @@ body {
     .handel__title {
         text-align: left;
     }
+
+    .lampshades__wrapper {
+        flex-flow: row;
+    }
+
+    .lampshades__title {
+        font-size: 3.5rem;
+    }
+
+    .lampshades__description {
+        max-width: 70%;
+        padding-right: 64px;
+    }
+
+    .lampshades__button {
+        align-self: center;
+    }
+
+    .lampshades__sizes {
+        width: unset;
+        max-width: 70%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    #contact {
+        flex: 1;
+        text-align: center;
+    }
+
+    .contact__title {
+        font-size: 3.5rem;
+    }
+
+    .contact__description {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact__phone,
+    .contact__email {
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -269,5 +509,17 @@ body {
         max-width: 50%;
         display: flex;
         justify-content: center;
+    }
+
+    #lampshades {
+        padding: 32px 0;
+    }
+
+    .lampshades__img-container {
+        padding: 0 32px;
+    }
+
+    #contact {
+        padding: 32px 0;
     }
 }
