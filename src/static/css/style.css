@@ -27,6 +27,12 @@ body {
     overflow-x: hidden;
 }
 
+.row,
+.row--background,
+.row--border {
+    overflow-x: hidden;
+}
+
 .row--background {
     background-color: var(--main-color);
 }
@@ -44,7 +50,6 @@ body {
 .row__inner {
     display: flex;
     flex-wrap: wrap;
-    overflow-x: hidden;
 }
 
 .navigation {
