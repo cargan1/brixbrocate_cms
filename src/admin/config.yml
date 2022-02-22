@@ -34,9 +34,11 @@ collections:
         file: "src/_data/contact_us.yaml"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
           - { label: "Phone number", name: "phone", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
+          - { label: "Bussiness Info", name: "text", widget: "markdown" }
+          - { label: "IG Link", name: "ig", widget: "string" }
+          - { label: "FB Link", name: "fb", widget: "string" }
       - label: "Find us"
         name: "find_us"
         file: "src/_data/find_us.yaml"
@@ -86,13 +88,6 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
-      - label: "Footer"
-        name: "footer"
-        file: "src/_data/footer.yaml"
-        fields:
-          - { label: "Footer text", name: "text", widget: "markdown" }
-          - { label: "IG Link", name: "ig", widget: "string" }
-          - { label: "FB Link", name: "fb", widget: "string" }
   - label: "Images"
     name: "images"
     editor:

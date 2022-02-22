@@ -206,14 +206,13 @@ body {
 }
 
 .about__title {
-    font-size: 3rem;
     position: relative;
 }
 
 .about__title::before {
     content: "OM";
     position: absolute;
-    top: -12px;
+    top: -18px;
     left: 0;
     font-size: 1.5rem;
 }
@@ -234,7 +233,6 @@ body {
 }
 
 .feed__title {
-    font-size: 2rem;
     text-align: center;
     padding-bottom: 24px;
     margin: 0;
@@ -265,7 +263,6 @@ body {
 }
 
 .lampshades__title {
-    font-size: 3rem;
     position: relative;
 }
 
@@ -293,6 +290,7 @@ body {
 }
 
 .lampshades__img-container {
+   scroll-behavior: smooth; 
     box-sizing: border-box;
     height: 400px;
     width: auto;
@@ -357,28 +355,47 @@ body {
     z-index: 309;
 }
 
+.lampshades__img__back,
+.lampshades__img__forward {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.lampshades__img__back {
+    left: 16px;
+}
+
+.lampshades__img__forward {
+    right: 16px;
+}
+
 #contact {
     padding: 32px 16px;
 }
 
-.contact__title {
-    font-size: 3rem;
-}
-
-.contact__description {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-top: 0;
+.contact__wrapper {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
 }
 
 .contact__phone,
 .contact__email {
     color: black;
     text-decoration: none;
-    font-size: 1.2rem;
     display: flex;
     align-items: center;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
 }
 
 .contact__phone svg,
@@ -391,19 +408,13 @@ body {
     text-decoration: underline;
 }
 
-#footer {
-    padding: 16px;
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__socials {
+.contact__socials {
     display: flex;
     flex-flow: column;
+    padding-bottom: 16px;
 }
 
-.footer__socials__entry {
+.contact__socials__entry {
     padding-bottom: 8px;
     text-decoration: none;
     display: flex;
@@ -411,26 +422,21 @@ body {
     color: black;
 }
 
-.footer__socials__entry svg {
+.contact__socials__entry svg {
     padding-right: 8px;
 }
 
-.footer__socials__entry:hover {
+.contact__socials__entry:hover {
     text-decoration: underline;
+}
+
+.contact__text {
+    padding-top: 16px;
 }
 
 @media (min-width: 768px) {
     .about__wrapper {
         flex-flow: row;
-    }
-
-    .about__title {
-        font-size: 3.5rem;
-    }
-
-    .about__title::before {
-        font-size: 1.5rem;
-        top: -10px;
     }
 
     .about__description {
@@ -440,10 +446,6 @@ body {
 
     .about__image {
         align-self: flex-start;
-    }
-
-    .feed__title {
-        font-size: 3rem;
     }
 
     .navigation__bar {
@@ -460,10 +462,6 @@ body {
 
     .lampshades__wrapper {
         flex-flow: row;
-    }
-
-    .lampshades__title {
-        font-size: 3.5rem;
     }
 
     .lampshades__description {
@@ -487,10 +485,6 @@ body {
         text-align: center;
     }
 
-    .contact__title {
-        font-size: 3.5rem;
-    }
-
     .contact__description {
         max-width: 70%;
         margin-left: auto;
@@ -500,6 +494,19 @@ body {
     .contact__phone,
     .contact__email {
         justify-content: center;
+    }
+
+    .contact__wrapper {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .contact__socials {
+        padding-bottom: 0;
+    }
+
+    .contact__text {
+        padding-top: 0;
     }
 }
 
