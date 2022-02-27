@@ -33,13 +33,14 @@ sizes: |-
   Ø30 x H20 cm\
   Ø45 x H25 cm 
 images:
+  - image: /static/img/562417f0-a548-47cf-aaba-a90812268f4b.jpeg
   - image: /static/img/image01.jpeg
   - image: /static/img/image06.jpeg
   - image: /static/img/image02.jpeg
   - image: /static/img/image07.jpeg
-  - image: /static/img/image08.jpeg
   - image: /static/img/image03.jpeg
-  - image: /static/img/image09.jpeg
+  - image: /static/img/image08.jpeg
   - image: /static/img/image04.jpeg
+  - image: /static/img/image09.jpeg
   - image: /static/img/image10.jpeg
   - image: /static/img/image05.jpeg
