@@ -1,40 +1,6 @@
 header: Åbningstider
-special_before: |-
-  <b>Særlige åbningstider i uge 13,14 & 15</b>
-  <br/>
-  <br/>
-  Mandag d.28/3 14-17.30<br>
-  Tirsdag d.30/3 11-14.30<br>
-  Fra onsdag d.30/3 til og med torsdag d.7/4 er butikken lukket.<br>
-  Fredag d.8/4 14-17.30<br>
-  Lørdag d. 9/4 11-14.30<br>
-  Søndag d.10/4 & mandag d. 11/4 er butikken lukket<br>
-  Tirsdag d.12/4 14-17.30<br>
-  Onsdag d.13/4 14-17.30<br>
-  Herefter holder butikken lukket indtil onsdag d.20/4 
-special_after: >
-  COVID19: Fra d. 1. Februar er det ikke længere lovpligtigt at bære mundbind i
-  butikken. Men så længe smitten stadig raser, som den gør lige nu, kommer vi
-  selv forsat til at bære mundbind, da vi skal passe ekstra på. Ligeledes
-  bibeholder vi spritautomaten, lufter ud og holder afstand.
-
-  <br/>
-
-  <br/>
-
-  Vi beder jer også om at lade børnene bliver hjemme så flest mulige kunder kan komme indenfor i butikken og har du de mindste symptomer på Corona, skal du naturligvis blive hjemme. Husk at vi fortsat skal passe på hinanden.
-
-  <br/>
-
-  <br/>
-
-  Det er forhåbentlig kun en kort tid vi behøver at passe ekstra på endnu, men indtil da håber vi på jeres forståelse og glæder os til at byde jer velkommen indenfor.
-
-  <br/>
-
-  <br/>
-
-  <br/>
+special_before: ""
+special_after: ""
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
