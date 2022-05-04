@@ -1,7 +1,7 @@
 header: Åbningstider
 special_before: ""
 special_after: |-
-  <b> Særlige åbningstider i uge 19 <\b>\
+  <b> Særlige åbningstider i uge 19 </b>\
   Butikken holder lukket fredag d.13.maj til og med tirsdag d. 17. Maj
 times:
   - day: "Onsdag - Fredag:"
