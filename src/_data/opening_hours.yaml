@@ -1,8 +1,8 @@
 header: Åbningstider
 special_before: ""
 special_after: |-
-  <b> Særlige åbningstider i uge 19 </b>\
-  Butikken holder lukket fredag d.13.maj til og med tirsdag d. 17. Maj
+  <b> Særlige åbningstider i uge 21 </b>\
+  Butikken holder lukket Kristi himmelfartsdag torsdag d.26. maj
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
