@@ -1,6 +1,8 @@
 header: Åbningstider
 special_before: ""
-special_after: ""
+special_after: <b> Butikken holder sommerlukket fra torsdag d. 14. Juli til og
+  med onsdag d.3. August. Åben igen torsdag d. 4. August. Der kan dog stadig,
+  som altid,  handles via Instagram og facebook<\b>
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
