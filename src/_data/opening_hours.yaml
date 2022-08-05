@@ -1,8 +1,5 @@
 header: Åbningstider
-special_before: <b> I uge 26 & 27 er butikken lukket lørdag.<br> Onsdag d. 13.
-  Juli åben 11-15.00. Herefter holder  butikken sommerlukket fra torsdag d. 14.
-  Juli til og med onsdag d.3. August. Åben igen torsdag d. 4. August. Der kan
-  dog stadig, som altid,  handles via Instagram, facebook og mail </b>
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
