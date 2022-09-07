@@ -1,13 +1,6 @@
 header: Åbningstider
 special_before: ""
-special_after: |-
-  <b>Særlige åbningstider i uge 35 </b>\
-
-  Onsdag d. 31. aug. 14-17.30\
-
-  Torsdag d.1. Sept. 14-17.30\
-
-  Fredag, lørdag & søndag er butikken lukket
+special_after: <b>Butikken er desværre lukket i dag onsdag d. 7. Sept. pga sygdom </b>\
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
