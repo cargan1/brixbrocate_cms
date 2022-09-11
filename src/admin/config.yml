@@ -99,3 +99,11 @@ collections:
         fields:
           - { label: "Header image", name: "header_image", widget: "image" }
           - { label: "Logo", name: "logo", widget: "image" }
+  - label: "Inspiration"
+    name: "inspiration"
+    folder: "src/inspiration"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+

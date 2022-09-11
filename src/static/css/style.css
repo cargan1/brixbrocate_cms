@@ -249,6 +249,27 @@ body {
     text-align: center;
 }
 
+#post {
+    padding: 32px 16px;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.post__title {
+    text-align: center;
+}
+
+#post p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#post img {
+    max-width: 100%;
+    height: auto;
+}
+
 #lampshades {
     padding: 32px 16px;
     color: #ffffff;
@@ -457,6 +478,10 @@ body {
     }
 
     .handel__title {
+        text-align: left;
+    }
+
+    .post__title {
         text-align: left;
     }
 
