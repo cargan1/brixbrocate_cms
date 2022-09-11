@@ -105,5 +105,6 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Header image", name: "header", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
 

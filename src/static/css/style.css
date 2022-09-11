@@ -170,6 +170,26 @@ body {
     object-fit: cover;
 }
 
+.header__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    z-index: 10;
+    font-size: 3rem;
+}
+
+.header__backdrop {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
 #opening-hours {
     padding: 32px 16px;
     display: flex;
@@ -475,6 +495,10 @@ body {
 
     .navigation__bar__inner {
         max-width: 800px;
+    }
+
+    .header__title {
+        font-size: 5rem;
     }
 
     .handel__title {
