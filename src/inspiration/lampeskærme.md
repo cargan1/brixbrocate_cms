@@ -28,3 +28,6 @@ Maria Brix
 ![](/static/img/img_0601.jpg)
 
 ![](/static/img/img_0602.jpg)
+
+Styling: Maria Brix\
+Foto: Simon Brix
