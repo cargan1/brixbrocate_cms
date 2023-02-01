@@ -1,5 +1,14 @@
 header: Åbningstider
-special_before: ""
+special_before: |-
+  <b>Ændrede åbningstider i uge 6 & 7</b>\
+
+  Mandag d.6. febr lukket\
+
+  Tirsdag d.7. febr  14.00-17.30\
+
+  Onsdag d.8. febr 14-17.30\
+
+  Herefter holder butikken lukket indtil torsdag d.16. februar\
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
