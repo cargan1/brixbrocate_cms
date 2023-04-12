@@ -1,17 +1,6 @@
 header: Åbningstider
 special_before: ""
-special_after: |-
-  
-  <b>Ændrede åbningstider i uge 13-15</b>\
-
-
-  Mandag d. 27/3 lukket\
-
-  Tirsdag d.28/3 14-17.30\
-
-  Onsdag d.29/3 14-17.30\
-
-  Herefter holder butikken lukket indtil onsdag d.12. April\
+special_after: ""
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
