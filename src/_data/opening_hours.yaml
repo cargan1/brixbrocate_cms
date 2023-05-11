@@ -1,16 +1,6 @@
 header: Åbningstider
 special_before: ""
-special_after: |-
-  <b>Ændrede åbningstider i uge 18</b>\
-
-
-  Mandag d.1. Maj lukket\
-
-  Tirsdag d.2. Maj 14-17.30\
-
-  Onsdag d.3. Maj 14-17.30\
-
-  Herefter holder butikken lukket indtil onsdag d.10. Maj\
+special_after: ""
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
