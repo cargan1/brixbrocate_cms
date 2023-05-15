@@ -1,5 +1,11 @@
 header: Åbningstider
-special_before: ""
+special_before: |
+  <b>Ændrede åbningstider i uge 20</b>\
+
+  Onsdag d.17.Maj 14-17.30\
+  Torsdag d.18. Maj ( Kr. Himmelfartsdag) er butikken lukket.\
+  fredag d.19. Maj 14-17.30\
+  Lørdag d.20. Maj 14-17.30
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
