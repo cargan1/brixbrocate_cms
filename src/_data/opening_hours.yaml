@@ -1,12 +1,11 @@
 header: Åbningstider
-special_before: |
-  <b>Ændrede åbningstider i uge 20</b>\
+special_before: ""
+special_after: |+
+  <b>Ændrede åbningstider i forbindelse med Pinsen</b>
 
-  Onsdag d.17.Maj 14-17.30\
-  Torsdag d.18. Maj ( Kr. Himmelfartsdag) er butikken lukket.\
-  fredag d.19. Maj 14-17.30\
-  Lørdag d.20. Maj 14-17.30
-special_after: ""
+  Onsdag d.23.Maj-fredag d.26. Maj 14-17.30\
+  Herefter er butikken lukket indtil onsdag d. 31. Maj
+
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
