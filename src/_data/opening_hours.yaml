@@ -1,11 +1,6 @@
 header: Åbningstider
 special_before: ""
-special_after: |+
-  <b>Ændrede åbningstider i forbindelse med Pinsen</b>
-
-  Onsdag d.24.Maj-fredag d.26. Maj 14-17.30\
-  Herefter er butikken lukket indtil onsdag d. 31. Maj
-
+special_after: ""
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
