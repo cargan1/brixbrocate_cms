@@ -1,5 +1,5 @@
 <div id="lampshades" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
-    <h1 class="lampshades__title">{{ lampshades.title }}</h1>
+    <h2 class="lampshades__title">{{ lampshades.title }}</h2>
     <div class="lampshades__wrapper">
         <p class="lampshades__description">{{ lampshades.description | markdownify | safe }}</p>
         <button @click="isOpen = !isOpen" class="lampshades__button">{{ lampshades.button }}</button>

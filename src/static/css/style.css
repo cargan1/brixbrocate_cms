@@ -27,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+h2 {
+    font-size: 2em !important;
+    margin: 0.67em 0 !important;
+}
+
 .row,
 .row--background,
 .row--border {

@@ -1,5 +1,5 @@
 <div id="opening-hours">
-    <h1 class="opening-hours__header">{{ opening_hours.header }}</h1>
+    <h2 class="opening-hours__header">{{ opening_hours.header }}</h2>
     {% if opening_hours.special_before | length %}
         <p class="opening-hours__special">{{ opening_hours.special_before | markdownify | safe }}</p>
     {% endif %}
