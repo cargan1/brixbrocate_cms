@@ -1,7 +1,7 @@
 ---
 meta_title: Håndlavede lampeskærme
-meta_description: Vi finder alle vores tekstiler til vores håndlavede skærme i
-  Paris. De er alle, hver og en, håndlavede af os selv.
+meta_description: Vi finder alle vores tekstiler til vores håndlavede
+  lampeskærme i Paris. De er alle, hver og en, håndlavede af os selv.
 title: Lampeskærme
 header: /static/img/img_0595.jpg
 ---
