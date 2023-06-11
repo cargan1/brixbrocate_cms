@@ -1,6 +1,6 @@
 ---
 meta_title: Vintage lamper
-meta_description: Bordlamper, loftslamper, lysekroner, sputniklamper, franske lamper
+meta_description: Du finder bl.a fine franske bordlamper, lysekroner & sputniklamper
 title: Lamper
 header: /static/img/img_3623.jpeg
 ---
