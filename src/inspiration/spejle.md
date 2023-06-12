@@ -8,6 +8,8 @@ I Brix Brocante finder du vægspejle i både messing, træ, rattan og glas. Fra 
 
 Nedenunder finder du eksempler på den type spejle du kan finde hos Brix Brocante. 
 
+![](/static/img/img_4545.jpeg)
+
 ![](/static/img/img_0081.jpeg)
 
 ![](/static/img/img_2892.jpeg)
