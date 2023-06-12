@@ -8,6 +8,10 @@ I Brix Brocante har vi altid et stort udvalg af forskellige smukke franske øste
 
 Nedenunder finder du eksempler på den type porcelæn og keramik du kan finde hos Brix Brocante. 
 
+![](/static/img/img_7119.jpeg)
+
+![](/static/img/img_7489.jpeg)
+
 ![](/static/img/img_2694.jpeg)
 
 ![](/static/img/img_1489.jpeg)
