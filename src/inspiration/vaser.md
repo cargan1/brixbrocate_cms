@@ -9,6 +9,10 @@ Hos Brix Brocante finder du altid et stort udvalg af forskellige smukke gamle fr
 
 Nedenunder finder du eksempler på den type vaser du kan finde hos Brix Brocante.
 
+![](/static/img/img_7163.jpeg)
+
+![](/static/img/img_8252.jpeg)
+
 ![](/static/img/img_7607.jpeg)
 
 ![](/static/img/img_7193.jpeg)
