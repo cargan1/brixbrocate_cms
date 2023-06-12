@@ -1,6 +1,6 @@
 ---
 meta_title: Tilbehør til hjemmebaren.
-meta_description: Du finder bl.a. franske champagnekølere, shakere og isspande hos Brix Brocante
+meta_description: Du finder bl.a. franske champagnekølere, shakere og isspande.
 title: Tilbehør til hjemmebaren
 header: /static/img/img_0153.jpeg
 ---
@@ -9,6 +9,14 @@ Hos Brix Brocante har vi altid et stort udvalg de fine gamle franske champagnek�
 
 Flaske og glas coastere er også at finde på hylderne.\
 Nedenunder finder du eksempler på det bartilbehør du kan finde i butikken.
+
+![]()
+
+![](/static/img/img_6942.jpeg)
+
+![](/static/img/img_8540.jpeg)
+
+![](/static/img/img_5915.jpeg)
 
 ![](/static/img/img_3430.jpeg)
 
