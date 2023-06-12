@@ -36,4 +36,4 @@ Nedenunder finder du eksempler på den type lamper du kan finde hos Brix Brocant
 
 ![](/static/img/img_7406.jpeg)
 
-![](/static/img/img_1903.jpeg)
+![]()
