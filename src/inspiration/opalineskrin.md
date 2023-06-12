@@ -8,6 +8,12 @@ Hos Brix Brocante har vi altid en fin samling af gamle franske opaline skrin. B�
 
 Nedenunder finder du eksempler på den type opalineskrin  du kan finde hos Brix Brocante. 
 
+![](/static/img/img_2945.jpeg)
+
+![](/static/img/img_8998.jpeg)
+
+![](/static/img/img_8999.jpeg)
+
 ![](/static/img/img_6268.jpeg)
 
 ![](/static/img/img_0288.jpeg)
