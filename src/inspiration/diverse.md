@@ -8,6 +8,8 @@ Hos Brix Brocante har vi altid et bredt udvalg af forskellig mindre fransk vinta
 
 Nedenunder blot et lille udvalg af den type du kan finde i butikken.
 
+![](/static/img/img_2994.jpeg)
+
 ![](/static/img/img_2959.jpeg)
 
 ![](/static/img/img_4438.jpeg)
