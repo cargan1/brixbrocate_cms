@@ -10,7 +10,9 @@ Hos Brix Brocante har vi altid et stort udvalg de fine gamle franske champagnek�
 Flaske og glas coastere er også at finde på hylderne.\
 Nedenunder finder du eksempler på det bartilbehør du kan finde i butikken.
 
-![]()
+![](/static/img/img_8450.jpeg)
+
+![](/static/img/img_4335.jpeg)
 
 ![](/static/img/img_6942.jpeg)
 
@@ -22,4 +24,4 @@ Nedenunder finder du eksempler på det bartilbehør du kan finde i butikken.
 
 ![](/static/img/img_8802.jpeg)
 
-![](/static/img/img_8450.jpeg)
+![]()
