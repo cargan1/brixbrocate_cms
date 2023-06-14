@@ -1,7 +1,7 @@
 ---
 order: 1
 meta_title: Franske vaser
-meta_description: Stort udvalg af antikke og franske vintage vaser.
+meta_description: "Stort udvalg af antikke og franske vintage vaser. "
 title: Vaser
 header: /static/img/img_2592.jpeg
 ---
