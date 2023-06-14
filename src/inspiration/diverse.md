@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 10
 meta_title: Diverse fransk antik og vintage interiør
 meta_description: Franske smykkeskrin, lysestager, kander, figurer og meget mere
 title: Diverse
