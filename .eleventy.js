@@ -32,6 +32,10 @@ module.exports = function (eleventyConfig) {
     return util.inspect(obj)
   })
 
+  eleventyConfig.addFilter('customSort', obj => {
+    return obj.sort(function(a, b) { return a.data.order - b.data.order })
+  })
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 

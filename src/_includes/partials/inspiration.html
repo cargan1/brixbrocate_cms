@@ -4,7 +4,7 @@
         <p class="inspiration__description">{{ inspiration.description | markdownify | safe }}</p>
 
         <div class="inspirations__wrapper">
-            {% for entry in collections.posts %}
+            {% for entry in collections.posts | customSort %}
             <a class="inspiration__entry" href="{{ entry.url }}">
 
                 <div class="inspiration__entry__title">{{ entry.data.title }}</div>

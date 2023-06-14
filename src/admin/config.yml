@@ -116,6 +116,7 @@ collections:
     folder: "src/inspiration"
     create: true
     fields:
+      - { label: "Order", name: "order", widget: "number" }
       - { label: "Meta Title", name: "meta_title", widget: "string" }
       - { label: "Meta Description", name: "meta_description", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }

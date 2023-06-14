@@ -1,4 +1,5 @@
 ---
+order: 0
 meta_title: Vintage lamper
 meta_description: Franske bordlamper, lysekroner, sputniklamper og palmelamper
 title: Lamper

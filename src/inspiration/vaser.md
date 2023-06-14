@@ -1,4 +1,5 @@
 ---
+order: 1
 meta_title: Franske vaser
 meta_description: Stort udvalg af antikke og franske vintage vaser.
 title: Vaser

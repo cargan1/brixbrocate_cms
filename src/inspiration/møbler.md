@@ -1,4 +1,5 @@
 ---
+order: 1
 meta_title: "Vintage møbler, primært fra Frankrig. "
 meta_description: I Brix Brocante finde du både barvogne & andre små møbler.
 title: Møbler

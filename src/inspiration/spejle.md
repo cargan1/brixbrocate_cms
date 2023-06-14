@@ -1,4 +1,5 @@
 ---
+order: 1
 meta_title: Vintage spejle
 meta_description: " Franske vintage vægspejle i både messing, træ, rattan og glas."
 title: Spejle
