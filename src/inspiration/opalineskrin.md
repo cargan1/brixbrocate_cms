@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 6
 meta_title: Opalineskrin
 meta_description: Både små skrin og større kandisskrin
 title: Opalineskrin
