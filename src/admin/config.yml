@@ -94,6 +94,12 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
+      - label: "Inspiration"
+        name: "inspiration_section"
+        file: "src/_data/inspiration.yaml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
   - label: "Images"
     name: "images"
     editor:
