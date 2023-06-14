@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 8
 meta_title: Tilbehør til hjemmebaren.
 meta_description: Du finder bl.a. franske champagnekølere, shakere og isspande.
 title: Tilbehør til hjemmebaren
