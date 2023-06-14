@@ -8,6 +8,7 @@ const markdownItRenderer = new markdownIt({
   linkify: true,
   typographer: true
 });
+const util = require('util')
 
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
@@ -26,6 +27,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('markdownify', (str) => {
     return markdownItRenderer.renderInline(str);
   });
+
+  eleventyConfig.addFilter('dump', obj => {
+    return util.inspect(obj)
+  })
 
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);

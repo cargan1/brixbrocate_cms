@@ -1,0 +1,17 @@
+<div id="inspiration">
+    <h2 class="inspiration__title">{{ inspiration.title }}</h2>
+    <div class="inspiration__wrapper">
+        <p class="inspiration__description">{{ inspiration.description | markdownify | safe }}</p>
+
+        <div class="inspirations__wrapper">
+            {% for entry in collections.posts %}
+            <a class="inspiration__entry" href="{{ entry.url }}">
+
+                <div class="inspiration__entry__title">{{ entry.data.title }}</div>
+                <div class="inspiration__entry__backdrop"></div>
+                <img class="inspiration__entry__img" src="{{ entry.data.header }}">
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

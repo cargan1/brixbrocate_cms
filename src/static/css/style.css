@@ -425,8 +425,69 @@ h2 {
     right: 16px;
 }
 
+#inspiration {
+    width: 100%;
+    padding: 32px 16px;
+}
+
+.inspirations__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.inspiration__entry {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+}
+
+.inspiration__entry__title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.inspiration__entry__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.inspiration__entry__backdrop {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
 #contact {
     padding: 32px 16px;
+    color: white;
+}
+
+#contact .contact__email path,
+#contact .contact__ig path
+{
+    fill: white;
+}
+
+#contact .contact__phone path,
+#contact .contact__fb path
+{
+    stroke: white;
 }
 
 .contact__wrapper {
@@ -437,7 +498,7 @@ h2 {
 
 .contact__phone,
 .contact__email {
-    color: black;
+    color: white;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -465,7 +526,7 @@ h2 {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .contact__socials__entry svg {
@@ -534,9 +595,27 @@ h2 {
         line-height: 1.5;
     }
 
+    .inspirations__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
     #contact {
+        color: white;
         flex: 1;
         text-align: center;
+    }
+
+    #contact .contact__email path,
+    #contact .contact__ig path
+    {
+        fill: white;
+    }
+
+    #contact .contact__phone path,
+    #contact .contact__fb path
+    {
+        stroke: white;
     }
 
     .contact__description {
@@ -586,6 +665,10 @@ h2 {
 
     .lampshades__img-container {
         padding: 0 32px;
+    }
+
+    #inspiration {
+        padding: 32px 0;
     }
 
     #contact {
