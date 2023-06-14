@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 4
 meta_title: Franske Glas
 meta_description: Du finder både champagneskåle, champagnefløjter og vinglas i Brix Brocante
 title: Glas
