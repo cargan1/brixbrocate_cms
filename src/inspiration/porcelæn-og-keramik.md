@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 5
 meta_title: "Fransk porcelæn og keramik "
 meta_description: Stort udvalg af bl.a østerstallerkner, aspargesfade, fade og tallerkner
 title: Porcelæn og keramik
