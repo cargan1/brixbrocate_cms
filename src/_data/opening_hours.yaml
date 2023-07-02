@@ -1,9 +1,15 @@
 header: Åbningstider
 special_before: ""
 special_after: >-
-  <b>Sommerlukket</b>\
+  <b>Åbningstider i juli & august</b>\
 
-  Butikken holder sommerlukket fra og med torsdag d.13. Juli til og med tirsdag d.8. August. Herefter er butikken åben helt som normalt.
+  Onsdag d.5.Juli 14-17.30\
+
+  Torsdag d.6.Juli 14-17.30\                         Fredag d.7.Juli 14-17.30\
+
+  ******** ********\                                            Tirsdag d.11.Juli 14-17.30\
+
+  Onsdag d.12.Juli 14-17.30\                            Herefter har butikken lukket indtil onsdag d. 9. August
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
