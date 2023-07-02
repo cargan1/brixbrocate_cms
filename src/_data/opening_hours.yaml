@@ -1,14 +1,11 @@
 header: Åbningstider
-special_before: >-
+special_before: |-
   <b>Åbningstider i juli & august</b>\
-
-  Onsdag d.5.Juli 14-17.30\
-
-  Torsdag d.6.Juli 14-17.30\                         Fredag d.7.Juli 14-17.30\
-
-  Tirsdag d.11.Juli 14-17.30\
-
-  Onsdag d.12.Juli 14-17.30\                            Herefter har butikken lukket indtil onsdag d. 9. August
+  Onsdag d.5.Juli 14-17.30/
+  Torsdag d.6.Juli 14-17.30/                         Fredag d.7.Juli 14-17.30/
+  Tirsdag d.11.Juli 14-17.30/
+  Onsdag d.12.Juli 14-17.30/
+  Herefter har butikken lukket indtil onsdag d. 9. August
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
