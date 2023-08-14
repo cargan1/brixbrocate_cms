@@ -1,6 +1,13 @@
 header: Åbningstider
-special_before: ""
-special_after: <b>Butikken er lukket onsdag d.16. August.</b>
+special_before: |-
+  <b>Særlige åbningstider i uge 33</b>
+
+  Tirsdag  10.30-13.30\
+  Onsdag lukket\
+  Torsdag 14-17.30\
+  Fredag 14-17.30\               
+  Lørdag 10.30-14.00\
+special_after: ""
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
