@@ -1,13 +1,5 @@
 header: Åbningstider
-special_before: |-
-  **Åbningstider i uge 33**
-  \
-  \
-  Tirsdag  10.30-13.30\
-  Onsdag lukket\
-  Torsdag 14-17.30\
-  Fredag 14-17.30\
-  Lørdag 10.30-14.00
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
