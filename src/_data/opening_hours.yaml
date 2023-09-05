@@ -1,6 +1,12 @@
 header: Åbningstider
 special_before: ""
-special_after: ""
+special_after: |-
+  **Særlige åbningstider i uge 38**
+  \
+  \
+  Mandag d.18.sept  14-17.30\
+  Tirsdag d.19.sept 14-17.3\
+  Herefter vil butikken være lukket indtil onsdag d.25. Oktober.
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
