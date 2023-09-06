@@ -30,10 +30,8 @@ Vi har altid et stort udvalg af vintage barvogne i butikken. De fleste udvalgt p
 
 ![](/static/img/img_8430.jpeg)
 
-
-
-
-
 ![](/static/img/img_3765.jpeg)
 
 ![](/static/img/img_4108.jpeg)
+
+![](/static/img/img_9256.jpeg)
