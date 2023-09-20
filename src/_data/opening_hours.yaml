@@ -2,7 +2,7 @@ header: Åbningstider
 special_before: |-
   **Butikken er lukket indtil d. 25. Oktober**
   \
-  \
+  Herefter vil åbningstiderne være:
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
