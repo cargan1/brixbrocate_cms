@@ -11,7 +11,9 @@ special_before: |-
   Torsdag d.28. 14.00-17.30\
   Fredag d.29. 14.00-17.30\
   Lørdag d.30. 11.00-14.00\
-  Herefter holder butikken lukket indtil torsdag d.4. Januar\
+  \
+  Herefter holder butikken lukket indtil torsdag d.4. Januar
+  \
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
