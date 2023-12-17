@@ -1,15 +1,17 @@
 header: Åbningstider
 special_before: |-
-  
-  <b>Særlige åbningstider i december</b>\
+  <b>Årets sidste åbningstider</b>
 
-  Onsdag - Fredag 14-17.30\
-  Lørdag 10.30-15.00\
-  Søndag 11-14.00
+  Tirsdag d.19.- torsdag d.21. 14.00-17.30\
+  Fredag d. 22. 14.00-17.00\
+  Lørdag d. 23. 10.30-14.00\
   \
+  Søndag d.24.- onsdag d. 27. Lukket\
   \
-  \
-  \
+  Torsdag d.28. 14.00-17.30\
+  Fredag d.29. 14.00-17.30\
+  Lørdag d.30. 11.00-14.00\
+  Herefter holder butikken lukket indtil torsdag d.4. Januar\
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
