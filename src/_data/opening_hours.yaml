@@ -13,6 +13,6 @@ times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
   - day: "Lørdag:"
-    time: 10.30 - 15.00
+    time: 10.30 - 14.00
   - day: "Søndag - Tirsdag:"
     time: Lukket
