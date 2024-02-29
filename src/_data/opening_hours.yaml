@@ -1,6 +1,15 @@
 header: Åbningstider
 special_before: ""
-special_after: ""
+special_after: |-
+  <b>Særlige åbningstider i uge 10 & 11</b>
+
+
+
+  Mandag d.4. marts lukket
+
+  Tirsdag d.5. marts 11-14.00
+
+  Herefter vil butikken være lukket indtil torsdag d. 14. Marts.
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
