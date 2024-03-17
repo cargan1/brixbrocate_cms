@@ -1,6 +1,10 @@
 header: Åbningstider
 special_before: ""
-special_after: ""
+special_after: |-
+  \*\*Særlige åbningstider i påsken\*\*
+
+  Butikken er lukket i hele uge 13\\
+  Åben igen som normalt i uge 14\
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
