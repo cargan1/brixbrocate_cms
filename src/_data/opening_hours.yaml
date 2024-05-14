@@ -1,11 +1,5 @@
 header: Åbningstider
-special_before: |-
-  <b>Særlige åbningstider i uge 19 i forbindelse med Kristi himmelfartsdag</b> 
-
-  Mandag 14.00-17.30\
-  tirsdag 14.00-17.30\
-  Onsdag 14-17.30\
-  herefter er butikken lukket indtil uge 20
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
