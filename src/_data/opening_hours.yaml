@@ -1,5 +1,11 @@
 header: Åbningstider
-special_before: <b>Butikken er lukket torsdag d.23. Juni. Åben igen fredag</b>
+special_before: |
+  <b>Ændrede åbningstider i uge 22</b>
+  Tirsdag d.28. 14-17.30\
+  onsdag d.29. 14.00-17.30\
+  torsdag d.30. Lukket\
+  fredag d. 31. 14-17.30
+  Lørdag d. 1. 10.30-14.00\
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
