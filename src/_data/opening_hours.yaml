@@ -1,13 +1,7 @@
 header: Åbningstider
-special_before: >+
-  <b>Vi skal ud og finde nye varer til jer og derfor er der ændrede åbningstider
-  i uge 23</b>\
+special_before: |+
+  <b>Butikken er lukket onsdag d.12. Juni pga sygdom</b>\
 
-  mandag d.3. 14-17.30\
-
-  Tirsdag d.4. 10.30-14.00\
-
-  Herefter er butikken lukket indtil onsdag d. 12. Juni.
 
 special_after: ""
 times:
