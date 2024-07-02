@@ -1,5 +1,11 @@
 header: Åbningstider
-special_before: ""
+special_before: |-
+  **Særlige åbningstider i uge 27**
+  \
+  Tirsdag 11-14.00\
+  Onsdag & torsdag 14-17.30\
+  Fredag 11-14.00
+  Herefter vil butikken være lukket indtil onsdag d.31. Juli.
 special_after: >+
   
   <b>Butikken holder sommerlukket fra d. 6. Juli til og med d.30. Juli. Begge dage inklusiv</b>\
