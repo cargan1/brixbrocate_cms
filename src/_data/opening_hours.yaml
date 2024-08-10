@@ -1,6 +1,6 @@
 header: Åbningstider
 special_before: ""
-special_after: ""
+special_after: <b>Butikken holder lukket fredag d.16. august </b>
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
