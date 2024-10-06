@@ -1,8 +1,6 @@
 header: Åbningstider
-special_before: |-
-  **Butikken vil være lukket fra d. 6. Sept.-9. okt.**
-  \
-  Åben igen onsdag d.9. Oktober.
+special_before: "**Butikken er åben tirsdag d. 8/10 14-17.30 og lukket onsdag
+  d.9/10. Herefter normale åbningstider.**"
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
