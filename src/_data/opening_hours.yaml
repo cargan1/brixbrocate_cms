@@ -4,17 +4,17 @@ special_before: |-
   Onsdag-fredag 14.00-17.30\
   Lørdag 11.00-15.00\
   Søndag 11.00-14.00\
-
-  Åbningstider fra 
-  d.23/12-4/1\
+  \
+  **Åbningstider fra 
+  d.23/12-4/1**\
   Mandag d.23. 11.00-14.00\
   Lørdag d.28. 11.00-15.00\
   Søndag d.29. 11.00-14.00\
   Mandag d.30. 11.00-14.00\
 
-  Herefter er butikken lukket 
+  **Herefter er butikken lukket 
   indtil 
-  Lørdag d.4. Januar
+  Lørdag d.4. Januar**
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
