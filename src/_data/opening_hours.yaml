@@ -1,10 +1,5 @@
 header: Åbningstider
-special_before: |+
-  **Særlige åbningstider i uge 7**
-  \
-  onsdag & torsdag 14-17.30\
-  Herefter vil butikken være lukket indtil onsdag d.19. Februar
-
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
