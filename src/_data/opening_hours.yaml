@@ -1,5 +1,10 @@
 header: Åbningstider
-special_before: ""
+special_before: |-
+  **Særlige åbningstider i uge 13 & 14**
+  \
+  \
+  uge 13 er butikken åben Tirsdag 10.30-13.30 og onsdag 11-14.00\
+  Herefter vil butikken være lukket indtil onsdag d.9.april 
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
