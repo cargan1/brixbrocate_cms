@@ -1,6 +1,5 @@
 header: Åbningstider
-special_before: |
-  **Butikken er påske lukket i uge 16**
+special_before: "\n"
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
