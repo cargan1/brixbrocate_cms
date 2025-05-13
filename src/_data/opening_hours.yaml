@@ -1,6 +1,13 @@
 header: Åbningstider
 special_before: "\n"
-special_after: ""
+special_after: |-
+  **Særlige åbningstider i uge 21**
+  \
+  \
+  Mandag d.19. Maj  14-17.30\
+  Tirsdag d.20. Maj 14-17.30\
+  onsdag d.21. Maj  14-17.30\
+  Herefter vil butikken være lukket indtil onsdag d.28.Maj
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
