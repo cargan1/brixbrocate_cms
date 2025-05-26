@@ -1,13 +1,12 @@
 header: Åbningstider
-special_before: "\n"
-special_after: |-
-  **Særlige åbningstider i uge 21**
+special_before: |-
+  
+  **Særlige åbningstider i uge 22 i forbindelse med Kr.Himmelfart**
   \
   \
-  Mandag d.19. Maj  14-17.30\
-  Tirsdag d.20. Maj 14-17.30\
-  onsdag d.21. Maj  14-16.30\
-  Herefter vil butikken være lukket indtil onsdag d.28.Maj
+  onsdag d. 28. Maj 14-17.30\
+  Herefter vil butikken være lukket resten af ugen.
+special_after: ""
 times:
   - day: "Onsdag - Fredag:"
     time: 14.00 - 17.30
