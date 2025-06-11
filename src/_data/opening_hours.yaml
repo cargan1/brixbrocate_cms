@@ -1,11 +1,5 @@
 header: Åbningstider
-special_before: |-
-  
-  **Særlige åbningstider i uge 23 i forbindelse med Pinsen**
-  \
-  \
-  onsdag-fredag 14-17.30\
-  Herefter vil butikken være lukket resten af ugen.
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
