@@ -1,5 +1,14 @@
 header: Åbningstider
-special_before: ""
+special_before: |-
+  ** Butikken er åben som vanligt i hele juni måned
+  \
+  \
+  Onsdag - fredag 14-17.30
+  & 
+  Lørdag 10.30-14.00**
+
+  Herefter holder vi sommerlukket hele juli og frem til 
+  d. 13. august 
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
