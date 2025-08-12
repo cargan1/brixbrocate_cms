@@ -1,8 +1,5 @@
 header: Åbningstider
-special_before: |-
-  <b>Butikken holder sommerlukket 
-  hele juli og frem til 
-  d. 13. august</b>\
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
