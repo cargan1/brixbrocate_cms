@@ -1,12 +1,5 @@
 header: Åbningstider
-special_before: |
-  **Særlige åbningstider i uge 35**
-  \
-  \
-  Onsdag  14-17.30\
-  Torsdag 10-13.00\
-  Fredag  14-17.30\
-  Lørdag  10.30-14.00
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
