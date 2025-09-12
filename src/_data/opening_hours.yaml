@@ -1,14 +1,5 @@
 header: Åbningstider
-special_before: |-
-  
-  **Denne uges åbningstider**
-  \
-  \
-  tirsdag 14-17.30\
-  onsdag  lukket\
-  torsdag 14-17.30
-  Fredag  14-17.30\
-  Lørdag  10.30-14.00
+special_before: ""
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
