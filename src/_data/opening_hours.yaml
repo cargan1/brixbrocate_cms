@@ -1,12 +1,8 @@
 header: Åbningstider
-special_before: >
+special_before: >+
   **Butikkens sidste åbningstider**
 
   \
-
-  \
-
-  Lørdag d. 18/10 10.30-14.00\
 
   \
 
@@ -16,23 +12,28 @@ special_before: >
 
   \
 
+  Kære kunder ❤️\
+
+  På torsdag d.23. Oktober kan butikken fejre 10 års fødselsdag. Det bliver så desværre også den sidste dag I finder mig bag disken i butikken. Men, i dagens anledning serverer vi lidt godt til ganen og alle der har lyst at kigge forbi og sige farvel er meget velkomne ml 14-17.30\
+
+  Kh Maria \
+
+  \
+
   Herefter vil butikken være lukket indtil de nye ejere åbner\
 
   \
 
   \
 
+  \
+
+  \
 
 
-  Kære kunder\
 
-  Grundet mit helbred må jeg desværre lukke butikken. 
 
-  Men fortvivl ej, for Brix Brocante fortsætter på nye gode hænder fra d.1. Nov.\
 
-  Sidste dag med mig bag disken bliver torsdag d.23. oktober.\
-
-  Udstedte gavekort skal derfor bruges senest d.23. Oktober.
 special_after: ""
 times:
   - day: "Onsdag - Fredag:"
