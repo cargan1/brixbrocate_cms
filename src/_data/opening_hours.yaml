@@ -1,44 +1,4 @@
 header: Åbningstider
-special_before: >+
-  **Butikkens sidste åbningstider**
-
-  \
-
-  \
-
-  Onsdag d.22/10 14-17.30\
-
-  Torsdag d.23/10 14-17.30\
-
-  \
-
-  Kære kunder ❤️\
-
-  På torsdag d.23. Oktober kan butikken fejre 10 års fødselsdag. Det bliver så desværre også den sidste dag I finder mig bag disken i butikken. Men, i dagens anledning serverer vi lidt godt til ganen og alle der har lyst at kigge forbi og sige farvel er meget velkomne ml 14-17.30\
-
-  Kh Maria \
-
-  \
-
-  Herefter vil butikken være lukket indtil de nye ejere åbner\
-
-  \
-
-  \
-
-  \
-
-  \
-
-
-
-
-
+special_before: ""
 special_after: ""
-times:
-  - day: "Onsdag - Fredag:"
-    time: 14.00 - 17.30
-  - day: "Lørdag:"
-    time: 10.30 - 14.00
-  - day: "Søndag - Tirsdag:"
-    time: Lukket
+times: []
